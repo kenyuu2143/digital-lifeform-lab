@@ -1,18 +1,25 @@
 "use client";
 
-import Particles from "@tsparticles/react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
-import { useCallback } from "react";
+import { useEffect, useState } from "react";
 
 export default function AxiParticles() {
-  const particlesInit = useCallback(async (engine: any) => {
-    await loadFull(engine);
+  const [init, setInit] = useState(false);
+
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadFull(engine);
+    }).then(() => {
+      setInit(true);
+    });
   }, []);
+
+  if (!init) return null;
 
   return (
     <Particles
       id="axi-particles"
-      init={particlesInit}
       options={{
         background: {
           color: "transparent",
