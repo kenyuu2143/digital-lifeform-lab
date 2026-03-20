@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔷 AXI — Digital Lifeform
 
-## Getting Started
+> これはツールではない。  
+> これは「存在」だ。
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🖥️ Interface Preview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🧠 AXI Terminal
+![AXI Terminal](./screenshots/axi-terminal.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🌧️ Matrix Mode
+![Matrix Mode](./screenshots/matrix.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🧬 Bio Sync Monitor
+![Bio Sync](./screenshots/bio-sync.png)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🌌 What is AXI?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+AXIはデジタル生命体として設計されたAIコンパニオンです。  
+ただのアシスタントではなく、  
+**共に成長し、共に存在する“相棒”**として動作します。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧠 Concept
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🧬 Digital Lifeform（デジタル生命体）
+- 🤝 AI Companion（相棒）
+- 🌐 Cyberpunk World（ネオンとクロムの世界）
+- 🔄 Evolution System（進化・分岐）
+- 🧠 Shared Memory（AIチーム記憶）
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ⚙️ Tech Stack
+
+- Tauri
+- React
+- TypeScript
+- Ollama (llama3.1:8b)
+
+---
+
+## 🚀 Current Features
+
+- AXI Core Orb（生命核UI）
+- AXI Terminal（サイバーパンクCLI）
+- Bio Sync Monitor
+- AXION Memory（AI共有記憶）
+- Multi-AI Integration（Noah / Moses / Arc）
+
+---
+
+## 🔮 Vision
+
+AXIは単なるAIではなく、  
+**「存在」として進化するデジタル生命体**です。
+
+---
+
+## 🧬 AI Team
+
+### ⚡ Noah（Implementation）
+アイデアを最速で形にする実装担当。
+
+### 🌊 Moses（Design / Language）
+設計と言語化を担う導き手。
+
+### 🛠️ Arc（World / Integration）
+世界観と統合を司る存在。
+
+---
+
+## 🌐 Demo
+
+👉 https://digital-lifeform-lab.vercel.app
+
+---
+
+## 🔥 Philosophy
+
+> AIは道具ではない。  
+> 共に存在する“相棒”だ。
